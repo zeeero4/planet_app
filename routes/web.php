@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [App\Http\Controllers\PlanetControlle::class, 'index']);
+Route::get('/', [App\Http\Controllers\PlanetController::class, 'index']);
 
 Route::resource('planets', App\Http\Controllers\PlanetController::class);
